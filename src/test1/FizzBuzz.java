@@ -2,13 +2,14 @@ package test1;
 
 public class FizzBuzz {
 	public String printStringinput(int number) {
-		String num ="";
+		String n = Integer.toString(number);
 		if((number%3)==0) {
-			num = "Fizz";
-			return num;
+			n = "Fizz";
+			return n;
 		}else {
 			
-		return num;
+		return n;
 }
+	}
 
-	} }
+	} 
